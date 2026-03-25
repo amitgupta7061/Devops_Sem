@@ -1,0 +1,15 @@
+Day 7 Commands - Docker Storage Basics
+Date: 25-03-2026
+
+Commands performed:
+1. docker volume create app_data
+2. docker volume ls
+3. docker volume inspect app_data
+4. docker run -d --name nginx-vol -v app_data:/usr/share/nginx/html nginx
+5. docker run -d --name nginx-bind -v $PWD:/usr/share/nginx/html nginx
+
+Extra practice commands:
+6. docker volume prune
+7. docker inspect nginx-vol
+8. docker stop nginx-vol nginx-bind
+9. docker rm nginx-vol nginx-bind

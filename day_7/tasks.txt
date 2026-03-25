@@ -1,0 +1,23 @@
+Day 7 - Docker Storage Basics
+Date: 25-03-2026
+
+Topics covered:
+1. Docker storage concepts
+2. Volumes vs bind mounts
+3. Backing data on host
+4. Copy-on-write mechanism
+5. Persistent data management in containers
+
+Tasks completed:
+- Understood the difference between volumes and bind mounts
+- Learned why container data is ephemeral without persistent storage
+- Studied how copy-on-write helps efficient image/container storage
+
+Practice done:
+- Created named volume: docker volume create app_data
+- Listed volumes: docker volume ls
+- Ran container using volume: docker run -d --name nginx-vol -v app_data:/usr/share/nginx/html nginx
+- Ran container using bind mount: docker run -d --name nginx-bind -v $PWD:/usr/share/nginx/html nginx
+
+Next class plan:
+- Registries in detail: Docker Hub, GHCR, private registries, access tokens
