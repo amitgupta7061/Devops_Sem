@@ -1,21 +1,26 @@
-Day 3 - Docker Objects, Images and Layers
-Date: 13-03-2026
+# Day 3 - Docker Objects, Images and Layers
 
-Topics covered:
+> Date: 13-03-2026
+
+
+## Topics covered
 1. Docker object types: container, image, network, volume
 2. Image registries and Docker Hub
 3. Container images and layers
 4. Docker filesystem layering
 
-Tasks completed:
+
+## Tasks completed
 - Understood image vs container
 - Learned layering concept and reuse of layers
 - Explored Docker Hub basics
 
-Practice done:
+
+## Practice done
 - Pulled image: docker pull nginx
 - Listed images: docker images
 - Ran container with port mapping: docker run -d -p 8080:80 nginx
 
-Next class plan:
+
+## Next class plan
 - Dockerfile core instructions and build process

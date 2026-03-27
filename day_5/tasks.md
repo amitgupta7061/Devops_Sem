@@ -1,23 +1,28 @@
-Day 5 - Image Registries and Docker Layers
-Date: 17-03-2026
+# Day 5 - Image Registries and Docker Layers
 
-Topics covered:
+> Date: 17-03-2026
+
+
+## Topics covered
 1. Container images and layers (revision)
 2. Docker image layer caching
 3. Image registries and distribution
 4. Docker Hub and GitHub Container Registry (GHCR)
 5. Basic authentication with registry access tokens
 
-Tasks completed:
+
+## Tasks completed
 - Learned how Docker stores images as reusable layers
 - Understood pull/push flow between local system and registry
 - Compared Docker Hub and GHCR at a basic level
 
-Practice done:
+
+## Practice done
 - Checked local images: docker images
 - Viewed image layer history: docker history nginx
 - Logged in to Docker Hub: docker login
 - Tagged image for registry: docker tag demo-app:v1 <dockerhub-username>/demo-app:v1
 
-Next class plan:
+
+## Next class plan
 - Docker networking: bridge, host, overlay and DNS inside Docker

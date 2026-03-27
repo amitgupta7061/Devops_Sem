@@ -1,7 +1,9 @@
-Day 8 - Registries Deep Dive and Intro to Microservices
-Date: 26-03-2026
+# Day 8 - Registries Deep Dive and Intro to Microservices
 
-Topics covered:
+> Date: 26-03-2026
+
+
+## Topics covered
 1. Docker Registries: Docker Hub vs GitHub Container Registry (GHCR)
 2. Setting up and using Private registries
 3. Authentication and using Personal Access Tokens (PATs)
@@ -9,17 +11,20 @@ Topics covered:
 5. Monolithic vs Microservices approaches
 6. Advantages of microservices (scalability, isolation, agility) and API Gateway concept
 
-Tasks completed:
+
+## Tasks completed
 - Learned how to authenticate securely using access tokens instead of passwords
 - Ran a local private Docker registry
 - Explored the basic concepts of migrating from a monolith to microservices
 - Discussed the role of an API Gateway in a microservices ecosystem
 
-Practice done:
+
+## Practice done
 - Created a Personal Access Token (PAT) on Docker Hub / GitHub
 - Logged into GHCR: docker login ghcr.io
 - Started a local private registry: docker run -d -p 5000:5000 --name registry registry:2
 - Tagged and pushed an image to the local private registry
 
-Next class plan:
+
+## Next class plan
 - Docker Compose: YAML structure and writing docker-compose.yml files

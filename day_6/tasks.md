@@ -1,23 +1,28 @@
-Day 6 - Docker Networking Basics
-Date: 24-03-2026
+# Day 6 - Docker Networking Basics
 
-Topics covered:
+> Date: 24-03-2026
+
+
+## Topics covered
 1. Docker bridge network
 2. Host network mode
 3. Overlay network (concept)
 4. DNS inside Docker
 5. Port mapping between host and container
 
-Tasks completed:
+
+## Tasks completed
 - Understood default bridge network behavior
 - Compared bridge mode and host mode basics
 - Learned how service/container name resolution works in Docker
 
-Practice done:
+
+## Practice done
 - Listed networks: docker network ls
 - Inspected bridge network: docker network inspect bridge
 - Ran container with port mapping: docker run -d -p 8081:80 nginx
 - Connected a container to custom network: docker network connect mynet <container-name>
 
-Next class plan:
+
+## Next class plan
 - Docker storage: volumes vs bind mounts
