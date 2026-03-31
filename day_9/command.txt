@@ -1,0 +1,15 @@
+Day 9 Commands - Docker Compose Basics
+Date: 31-03-2026
+
+Commands performed:
+1. docker-compose version
+2. docker-compose config
+3. docker-compose up
+4. docker-compose up -d
+
+Extra practice commands:
+5. docker-compose ps
+6. docker-compose logs
+7. docker-compose logs -f <service_name>
+8. docker-compose down
+9. docker-compose down -v

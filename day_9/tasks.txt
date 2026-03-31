@@ -1,0 +1,24 @@
+Day 9 - Docker Compose and YAML Structure
+Date: 31-03-2026
+
+Topics covered:
+1. Introduction to YAML syntax
+2. Docker Compose basics
+3. Writing `docker-compose.yml` 
+4. Key compose fields: `version`, `services`, `volumes`, `networks`
+5. `build` vs `image` directives in Compose
+
+Tasks completed:
+- Understood indentation and structure rules for YAML
+- Learned how to translate Docker CLI `run` commands into Compose files
+- Configured a basic multi-service composed file (e.g. web and db)
+- Explored difference between building an image from source versus pulling a pre-built image using Compose
+
+Practice done:
+- Installed/Verified Docker Compose: docker-compose version
+- Created a basic `docker-compose.yml` file for an Nginx web server
+- Started services: docker-compose up -d
+- Stopped and removed services: docker-compose down
+
+Next class plan:
+- Docker Compose advanced: Environment variables, Service dependencies, and Use Case Deployments
