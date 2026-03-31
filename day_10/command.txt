@@ -1,0 +1,14 @@
+Day 10 Commands - Advanced Compose and Dependencies
+Date: 31-03-2026
+
+Commands performed:
+1. docker-compose --env-file .env up -d
+2. docker-compose ps
+3. docker port <container_name>
+4. docker-compose logs wordpress
+
+Extra practice commands:
+5. docker-compose exec db mysql -u root -p
+6. docker-compose restart wordpress
+7. docker-compose down --volumes
+8. docker volume ls

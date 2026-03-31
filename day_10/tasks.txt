@@ -1,0 +1,24 @@
+Day 10 - Advanced Docker Compose and Use Case Deployments
+Date: 31-03-2026
+
+Topics covered:
+1. Handling Environment variables in Docker Compose
+2. Passing Secrets and Configs
+3. Service dependency ordering (`depends_on`)
+4. Use case deployments: WordPress + MySQL
+5. Introduction to Maven build automation (Unit IV intro)
+
+Tasks completed:
+- Learned how to inject environment variables securely using `.env` files
+- Configured service lifecycle startup using `depends_on`
+- Successfully connected a multi-container stack (frontend interacting with backend DB)
+- Deployed a fully functional WordPress and MySQL stack locally using Compose
+
+Practice done:
+- Created a `.env` file for MySQL credentials
+- Wrote a `docker-compose.yml` for WordPress + MySQL
+- Used `depends_on` to ensure DB starts before WordPress
+- Started multi-container app: docker-compose up -d
+
+Next class plan:
+- Maven Build Automation: Pom.xml, directory structure, and build lifecycles
