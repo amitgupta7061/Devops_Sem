@@ -1,0 +1,22 @@
+Day 18 - CI/CD: Docker & GitHub Actions Integration
+Date: 19-04-2026
+
+Topics covered:
+1. Building Docker images in CI (GitHub Actions)
+2. Pushing images to Docker Hub
+3. Pushing images to GitHub Container Registry (GHCR)
+4. Deployments to servers/clouds via pipelines
+
+Tasks completed:
+- Learned how to authenticate the runner pipeline using Docker Login
+- Built the latest image inside the workflow on PR/push events
+- Tested tagging with Git hashes (e.g., `github.sha`) for image versioning
+- Used the official `docker/login-action` and `docker/build-push-action`
+
+Practice done:
+- Written a pipeline step to build and push to Docker Hub
+- Checked the Docker Hub registry for the newly pushed image with CI tags
+- Pushed updates to main to trigger the build
+
+Next class plan:
+- CI/CD with Jenkins (Unit VI intro, Architecture, Master/Agent Model)

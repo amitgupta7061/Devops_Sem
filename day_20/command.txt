@@ -1,0 +1,12 @@
+Day 20 Commands - Jenkins Pipelines
+Date: 22-04-2026
+
+Commands performed:
+1. touch Jenkinsfile
+2. git add Jenkinsfile
+3. git commit -m "Add declarative Jenkins pipeline"
+4. git push
+
+Extra practice commands:
+5. curl -X POST -u username:token http://localhost:8080/job/MyPipeline/build
+6. Watch UI console output stream during a Jenkins build (localhost:8080 -> Job -> Console Output)

@@ -1,0 +1,14 @@
+Day 15 Commands - GitHub Actions Basics
+Date: 12-04-2026
+
+Commands performed:
+1. mkdir -p .github/workflows
+2. touch .github/workflows/main.yml
+3. git add .github/workflows/main.yml
+4. git commit -m "First GH Action workflow"
+5. git push
+
+Extra practice commands:
+6. gh run list
+7. gh run view
+8. gh run rerun <run-id>

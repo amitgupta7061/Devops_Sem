@@ -1,0 +1,12 @@
+Day 17 Commands - Environments and Runners
+Date: 16-04-2026
+
+Commands performed:
+1. git add .github/workflows/multi-job.yml
+2. git commit -m "Test sequential jobs and secrets"
+3. git push
+
+Extra practice commands:
+4. gh secret set DOCKER_USERNAME --body "myusername"
+5. gh secret list
+6. (Optional) Run the self-hosted runner installation script from GitHub Repo > Settings > Actions > Runners

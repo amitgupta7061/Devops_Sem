@@ -1,0 +1,14 @@
+Day 19 Commands - Jenkins Setup
+Date: 21-04-2026
+
+Commands performed:
+1. docker pull jenkins/jenkins:lts
+2. docker run -d -p 8080:8080 -p 50000:50000 --name myjenkins jenkins/jenkins:lts
+3. docker logs myjenkins (Extract password)
+4. Accessed localhost:8080
+
+Extra practice commands:
+5. docker exec -it myjenkins bash
+6. cat /var/jenkins_home/secrets/initialAdminPassword
+7. docker stop myjenkins
+8. docker start myjenkins

@@ -1,0 +1,24 @@
+Day 20 - Jenkins Pipelines and Jenkinsfile
+Date: 22-04-2026
+
+Topics covered:
+1. Freestyle jobs vs Pipeline jobs
+2. Declarative pipeline syntax vs Scripted pipeline syntax
+3. Jenkinsfile structure
+4. Pipeline parameters and Environment variables
+5. Multi-branch pipelines
+6. Pipeline Stages: Checkout code, Build, Test, Package, Post actions & Artifacts
+
+Tasks completed:
+- Understood why Pipeline as Code is preferred over clicking through Freestyle forms
+- Wrote a basic Declarative `Jenkinsfile`
+- Defined sequential stages mirroring the software development life cycle (Maven `clean install`)
+- Configured saving an `.jar` file as a Build Artifact in Jenkins
+
+Practice done:
+- Created a new Pipeline "Item" in Jenkins
+- Linked the pipeline definition to a Git repository (SCM)
+- Defined parameters via UI/Pipeline script: `pipeline { parameters { string(name: 'ENV', defaultValue: 'dev') } }`
+
+Next class plan:
+- Docker and Jenkins Integration (Docker plugins, Agents, Hub pushes)

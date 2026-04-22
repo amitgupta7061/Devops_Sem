@@ -1,0 +1,11 @@
+Day 14 Commands - Maven & Docker Integration
+Date: 09-04-2026
+
+Commands performed:
+1. docker build -t my-java-app . (With multi-stage Dockerfile)
+2. docker run -d -p 8080:8080 my-java-app
+
+Extra practice commands:
+3. mvn spring-boot:build-image (If using Spring Boot)
+4. docker history my-java-app
+5. docker image ls | grep my-java-app

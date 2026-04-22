@@ -1,0 +1,12 @@
+Day 12 Commands - Maven Dependencies
+Date: 05-04-2026
+
+Commands performed:
+1. mvn dependency:tree
+2. mvn dependency:analyze
+3. mvn install
+
+Extra practice commands:
+4. mvn dependency:resolve
+5. mvn dependency:sources
+6. mvn help:effective-pom

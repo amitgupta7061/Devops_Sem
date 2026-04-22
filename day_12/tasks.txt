@@ -1,0 +1,23 @@
+Day 12 - Maven Dependencies and Management
+Date: 05-04-2026
+
+Topics covered:
+1. Parent POM and project inheritance
+2. Dependency scope (compile, test, runtime, provided)
+3. Transitive dependencies
+4. Version conflicts and resolution
+5. Using `<dependencyManagement>`
+
+Tasks completed:
+- Differentiated between various dependency scopes and their uses
+- Explored how transitive dependencies get pulled automatically
+- Learned techniques for resolving dependency version conflicts (exclusions)
+- Structured a parent POM to manage dependency versions across multiple sub-modules
+
+Practice done:
+- Added dependencies (e.g., JUnit, Log4j) to pom.xml with varying scopes
+- Checked dependency tree: mvn dependency:tree
+- Added `<exclusions>` block to fix simulated conflict
+
+Next class plan:
+- Maven plugins (Compiler, Surefire, Shade) and Maven wrapper

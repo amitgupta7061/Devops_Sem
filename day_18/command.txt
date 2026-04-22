@@ -1,0 +1,11 @@
+Day 18 Commands - Docker and GH Actions Integration
+Date: 19-04-2026
+
+Commands performed:
+1. git tag v1.0.0 (simulating release tag if needed in pipeline)
+2. git push origin v1.0.0
+3. Check completion on Actions tab UI
+
+Extra practice commands:
+4. docker pull <your-docker-hub>/my-app-image:latest (After pipeline finishes, on your local machine)
+5. docker run -d <your-docker-hub>/my-app-image:latest

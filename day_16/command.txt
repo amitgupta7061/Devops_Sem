@@ -1,0 +1,12 @@
+Day 16 Commands - Actions Matrix and Caching
+Date: 14-04-2026
+
+Commands performed:
+1. git commit -m "Add matrix strategy and Maven caching"
+2. git push
+3. Watch the Actions tab in the GitHub UI for parallel execution
+
+Extra practice commands:
+4. gh action search java
+5. gh action search cache
+6. gh run list --branch main

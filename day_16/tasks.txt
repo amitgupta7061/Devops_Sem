@@ -1,0 +1,22 @@
+Day 16 - GitHub Actions Optimization and Strategies
+Date: 14-04-2026
+
+Topics covered:
+1. Jobs & matrix strategies (testing across multiple OS/Versions)
+2. Steps & shell commands execution
+3. Using community Marketplace Actions (e.g., `checkout@v3`, `setup-java@v3`)
+4. Using caching for faster builds
+
+Tasks completed:
+- Configured a build matrix to run a Java project on JDK 11 and JDK 17 simultaneously
+- Integrated actions from the GitHub Marketplace
+- Learned how to cache Maven dependencies to speed up the CI pipeline execution times
+
+Practice done:
+- Written YAML defining `strategy: matrix: java: [ '11', '17' ]`
+- Configured `actions/setup-java@v3`
+- Configured `actions/cache@v3` for `~/.m2/repository`
+- Pushed changes and observed matrix execution on the GitHub UI
+
+Next class plan:
+- Multi-job workflows, Runners (GitHub-hosted vs Self-hosted), Actions Security

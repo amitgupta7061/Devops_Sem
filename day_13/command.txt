@@ -1,0 +1,13 @@
+Day 13 Commands - Plugins and Wrapper
+Date: 07-04-2026
+
+Commands performed:
+1. mvn clean package
+2. java -jar target/my-app-1.0-SNAPSHOT.jar (After Shade Plugin setup)
+3. mvn wrapper:wrapper
+4. ./mvnw clean install
+
+Extra practice commands:
+5. ./mvnw test
+6. mvn help:describe -Dplugin=compiler
+7. mvn help:describe -Dplugin=shade

@@ -1,0 +1,22 @@
+Day 15 - Continuous Integration with GitHub Actions
+Date: 12-04-2026
+
+Topics covered:
+1. Understanding workflow automation and Events
+2. Key components: workflows, jobs, steps, actions, runners
+3. Workflow directory structure (`.github/workflows/`)
+4. Triggers: push, pull request, schedule, manual (`workflow_dispatch`)
+
+Tasks completed:
+- Compared manual processes with Continuous Integration (CI) pipelines
+- Learned the YAML syntax structure specific to GitHub Actions
+- Understood how runners execute virtual environments for builds
+- Set up a simple automated action reacting to a commit push
+
+Practice done:
+- Created a `.github/workflows/main.yml` file
+- Added triggers on push to the `main` branch
+- Configured a basic job to run `echo "Hello GitHub Actions"`
+
+Next class plan:
+- Jobs & Matrix strategies, shell commands, marketplace actions, caching

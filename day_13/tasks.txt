@@ -1,0 +1,24 @@
+Day 13 - Maven Plugins and Wrapper
+Date: 07-04-2026
+
+Topics covered:
+1. Understanding Maven plugins
+2. Compiler plugin configuration (setting Java source/target versions)
+3. Surefire plugin for running unit tests
+4. Shade plugin for creating Uber JARs (fat JARs)
+5. Introduction to Maven wrapper (`mvnw`)
+
+Tasks completed:
+- Configured maven-compiler-plugin mapped to Java 17
+- Used maven-surefire-plugin to handle unit testing
+- Created a single executable fat JAR packaging dependencies via maven-shade-plugin
+- Learned how Maven Wrapper solves missing local Maven installation issues
+
+Practice done:
+- Configured compiler & shade plugin inside `<plugins>` element
+- Executed tests separately: mvn surefire:test
+- Ran the packaged fat JAR
+- Generated wrapper files: mvn wrapper:wrapper
+
+Next class plan:
+- Maven and Docker Integration

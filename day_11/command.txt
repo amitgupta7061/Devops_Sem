@@ -1,0 +1,14 @@
+Day 11 Commands - Maven Basics
+Date: 02-04-2026
+
+Commands performed:
+1. mvn -version
+2. mvn archetype:generate -DgroupId=com.example -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+3. mvn compile
+4. mvn test
+
+Extra practice commands:
+5. mvn clean
+6. mvn package
+7. mvn install
+8. java -cp target/my-app-1.0-SNAPSHOT.jar com.example.App

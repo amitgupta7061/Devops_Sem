@@ -1,0 +1,21 @@
+Day 19 - Jenkins CI/CD Foundations
+Date: 21-04-2026
+
+Topics covered:
+1. Jenkins Architecture (Master/Agent model)
+2. Installation & UI overview
+3. Plugins management
+4. Security, users, and roles (Role-Based Access Control)
+
+Tasks completed:
+- Explored Jenkins as an alternative self-managed CI/CD server compared to cloud-native GitHub Actions
+- Discussed the Controller/Agent (Master/Slave) node distribution
+- Logged into Jenkins UI, installed Git and Maven plugins
+
+Practice done:
+- Started Jenkins server via Docker locally: docker run -p 8080:8080 jenkins/jenkins:lts
+- Retrieved initial admin password from logs
+- Completed standard plugin installation from the Setup Wizard
+
+Next class plan:
+- Jenkins Pipelines (Freestyle vs Pipeline jobs, Syntax, Jenkinsfile)

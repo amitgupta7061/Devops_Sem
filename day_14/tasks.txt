@@ -1,0 +1,21 @@
+Day 14 - Maven and Docker Integration
+Date: 09-04-2026
+
+Topics covered:
+1. Dockerizing Maven-based applications
+2. dockerfile-maven-plugin vs traditional Dockerfiles
+3. Multi-stage Docker builds for Java apps (build vs run)
+4. Pushing Java artifacts to registries directly via Maven
+
+Tasks completed:
+- Understood the concept of integrating Maven packaging step with Docker build
+- Learned about Jib vs dockerfile-maven-plugin vs spring-boot-maven-plugin basic ideas
+- Emphasized multi-stage builds (using a `maven` image to compile, then a `jre` image to run) to keep image size small
+
+Practice done:
+- Created a multi-stage Dockerfile mimicking the Maven lifecycle
+- Built a Java application image using the multi-stage Dockerfile
+- Configured Maven to run a docker build
+
+Next class plan:
+- Continuous Integration (CI) with GitHub Actions (Unit V)

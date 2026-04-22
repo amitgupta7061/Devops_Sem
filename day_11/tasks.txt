@@ -1,0 +1,23 @@
+Day 11 - Introduction to Maven and POM Basics
+Date: 02-04-2026
+
+Topics covered:
+1. Need for build tools and problems solved by automated builds
+2. Project Object Model (POM.xml)
+3. Standard Maven directory structure (src/main/java vs src/test/java)
+4. Maven build lifecycle phases: validate, compile, test, package, verify, install, deploy
+
+Tasks completed:
+- Understood why we need Maven compared to compiling Java manually
+- Walked through a standard POM.xml file structure
+- Explored the standard Maven directory layout
+- Executed basic standard lifecycles to see source compilation and packaging
+
+Practice done:
+- Installed Maven
+- Created a new Maven project from archetype
+- Compiled source code: mvn compile
+- Packaged the project into a JAR: mvn package
+
+Next class plan:
+- Maven Dependencies: Parent POM, scopes, version conflicts, transitive dependencies

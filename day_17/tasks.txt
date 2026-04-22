@@ -1,0 +1,22 @@
+Day 17 - Actions Environments, Runners, and Multi-job Workflows
+Date: 16-04-2026
+
+Topics covered:
+1. Multi-job workflows (Needs keyword for dependencies)
+2. Deploying to servers/cloud using Actions (Intro)
+3. Runners: GitHub-hosted runners
+4. Runners: Self-hosted runners
+5. Runner security & management
+
+Tasks completed:
+- Split a single workflow into two sequential jobs: build and test
+- Explored GitHub secrets to store deployment or login keys securely
+- Discussed the difference between running on `ubuntu-latest` (GitHub runner) versus a local custom environment (self-hosted)
+
+Practice done:
+- Added a `test` job that `needs: build`
+- Created a GitHub Secret (e.g., `DOCKER_PASSWORD`) under repo settings
+- Added secret injection `secrets.DOCKER_PASSWORD` in the workflow
+
+Next class plan:
+- Docker & GitHub Actions (Building Docker images in CI, Pushing)
